@@ -1,0 +1,113 @@
+#social-medias-icons
+    display: flex
+    position: absolute
+    z-index: 1
+    margin-top: 1em
+    width: 340px
+
+    li
+        list-style: none
+        color: #fff
+
+    a
+        text-decoration: none
+        color: #fff
+        padding: 10px
+
+        &:hover
+            background-color: rgba(0, 0, 0, .5)
+
+#ImMenu
+    display: flex
+    position: absolute
+    z-index: 1
+    margin-left: 80%
+    margin-top: .5em
+    color: #fff
+    font-size: 2em
+    display: none
+    padding: 3
+
+    &:hover
+        background-color: rgba(0, 0, 0, .5)
+    
+#menu-desktop
+    display: flex
+    position: absolute
+    z-index: 1
+    margin-left: 50%
+    margin-top: 1em
+
+    li
+        list-style: none
+
+    a
+        text-decoration: none
+        color: #fff
+        padding: 10px
+    
+        &:hover
+            background-color: rgba(0, 0, 0, .5)
+    
+#carrousel
+    display: flex
+    width: 100%
+    height: 50vh
+
+    .Image-One
+        display: flex
+        width: 100%
+        height: 50vh
+        background: url("https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+        background-position: center
+        background-size: cover
+
+    .Image-Two
+        display: flex
+        width: 100%
+        height: 50vh
+        background: url("https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80")
+        background-position: center
+        background-size: cover
+
+    .Image-Three
+        display: flex
+        width: 100%
+        height: 50vh
+        background: url("https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1494&q=80")
+        background-position: center
+        background-size: cover
+
+    .Image-Four
+        display: flex
+        width: 100%
+        height: 50vh
+        background: url("https://plus.unsplash.com/premium_photo-1664283661697-1acf0b0c3dbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+        background-position: center
+        background-size: cover
+
+    h1
+        margin-top: -5em
+        font-family: Arial, Helvetica, sans-serif
+        font-weight: bold
+        background-color: rgba(0, 0, 0, .5) 
+
+    h3
+        font-family: Arial, Helvetica, sans-serif
+        font-weight: bold
+        background-color: rgba(0, 0, 0, .5)  
+
+@media (max-width: 892px)
+    #ImMenu
+        display: flex
+
+    #mobileMenu
+        display: flex
+        flex-direction: column
+        z-index: 1
+        background-color: #000
+
+
+    #menu-desktop, #social-medias-icons
+        display: none
+        
